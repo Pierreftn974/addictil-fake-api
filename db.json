@@ -1,0 +1,35 @@
+{
+  "categories": [
+    { "id": 1, "name": "Américains" },
+    { "id": 2, "name": "Burgers" },
+    { "id": 3, "name": "Tacos" }
+  ],
+
+  "products": [
+    { "id": 101, "category_id": 1, "name": "Américain Steak Frites", "price": 8.90, "image": "https://picsum.photos/400?americain1", "description": "Pain baguette, steak 150g, frites maison, sauce samouraï." },
+    { "id": 102, "category_id": 1, "name": "Américain Poulet", "price": 8.50, "image": "https://picsum.photos/400?americain2", "description": "Poulet mariné, frites, salade, mayo maison." },
+    { "id": 103, "category_id": 1, "name": "Américain Thon", "price": 7.90, "image": "https://picsum.photos/400?americain3", "description": "Thon mayonnaise, crudités fraîches." },
+    { "id": 104, "category_id": 1, "name": "Américain Merguez", "price": 8.90, "image": "https://picsum.photos/400?americain4", "description": "3 merguez grillées, frites croustillantes." },
+
+    { "id": 201, "category_id": 2, "name": "Burger Classic", "price": 10.50, "image": "https://picsum.photos/400?burger1", "description": "Steak 140g, cheddar, salade, tomate, sauce maison." },
+    { "id": 202, "category_id": 2, "name": "Burger Double Cheese", "price": 12.50, "image": "https://picsum.photos/400?burger2", "description": "Double steak, double cheddar.", "options": [
+        { "id": 1, "name": "Bacon", "price": 1.00 },
+        { "id": 2, "name": "Cheddar extra", "price": 1.20 }
+      ]
+    },
+    { "id": 203, "category_id": 2, "name": "Burger Chicken Crispy", "price": 11.50, "image": "https://picsum.photos/400?burger3", "description": "Poulet pané croustillant, sauce pepper." },
+    { "id": 204, "category_id": 2, "name": "Burger Raclette", "price": 13.90, "image": "https://picsum.photos/400?burger4", "description": "Raclette fondue, oignons caramélisés." },
+
+    { "id": 301, "category_id": 3, "name": "Tacos Simple", "price": 8.90, "image": "https://picsum.photos/400?tacos1", "description": "One meat, frites, sauce gruyère." },
+    { "id": 302, "category_id": 3, "name": "Tacos Double", "price": 10.90, "image": "https://picsum.photos/400?tacos2", "description": "Two meats, sauce gruyère maison." },
+    { "id": 303, "category_id": 3, "name": "Tacos Giant", "price": 13.90, "image": "https://picsum.photos/400?tacos3", "description": "Format XXL, triple viande." },
+    { "id": 304, "category_id": 3, "name": "Tacos Chicken BBQ", "price": 9.90, "image": "httpsum.photos/400?tacos4", "description": "Poulet mariné BBQ, frites, sauce cheddar." }
+  ],
+
+  "restaurant": {
+    "id": 1,
+    "name": "Kazdal",
+    "delivery_fee": 2.5,
+    "min_order": 10
+  }
+}
