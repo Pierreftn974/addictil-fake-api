@@ -1,35 +1,152 @@
 {
-  "categories": [
-    { "id": 1, "name": "Américains" },
-    { "id": 2, "name": "Burgers" },
-    { "id": 3, "name": "Tacos" }
-  ],
-
-  "products": [
-    { "id": 101, "category_id": 1, "name": "Américain Steak Frites", "price": 8.90, "image": "https://picsum.photos/400?americain1", "description": "Pain baguette, steak 150g, frites maison, sauce samouraï." },
-    { "id": 102, "category_id": 1, "name": "Américain Poulet", "price": 8.50, "image": "https://picsum.photos/400?americain2", "description": "Poulet mariné, frites, salade, mayo maison." },
-    { "id": 103, "category_id": 1, "name": "Américain Thon", "price": 7.90, "image": "https://picsum.photos/400?americain3", "description": "Thon mayonnaise, crudités fraîches." },
-    { "id": 104, "category_id": 1, "name": "Américain Merguez", "price": 8.90, "image": "https://picsum.photos/400?americain4", "description": "3 merguez grillées, frites croustillantes." },
-
-    { "id": 201, "category_id": 2, "name": "Burger Classic", "price": 10.50, "image": "https://picsum.photos/400?burger1", "description": "Steak 140g, cheddar, salade, tomate, sauce maison." },
-    { "id": 202, "category_id": 2, "name": "Burger Double Cheese", "price": 12.50, "image": "https://picsum.photos/400?burger2", "description": "Double steak, double cheddar.", "options": [
-        { "id": 1, "name": "Bacon", "price": 1.00 },
-        { "id": 2, "name": "Cheddar extra", "price": 1.20 }
-      ]
+  "americains": [
+    {
+      "id": 1,
+      "name": "Américain Classique",
+      "description": "Pain, steak haché, salade, tomate, oignons, frites, sauce samouraï",
+      "price": 6.50,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+      "category": "americains"
     },
-    { "id": 203, "category_id": 2, "name": "Burger Chicken Crispy", "price": 11.50, "image": "https://picsum.photos/400?burger3", "description": "Poulet pané croustillant, sauce pepper." },
-    { "id": 204, "category_id": 2, "name": "Burger Raclette", "price": 13.90, "image": "https://picsum.photos/400?burger4", "description": "Raclette fondue, oignons caramélisés." },
-
-    { "id": 301, "category_id": 3, "name": "Tacos Simple", "price": 8.90, "image": "https://picsum.photos/400?tacos1", "description": "One meat, frites, sauce gruyère." },
-    { "id": 302, "category_id": 3, "name": "Tacos Double", "price": 10.90, "image": "https://picsum.photos/400?tacos2", "description": "Two meats, sauce gruyère maison." },
-    { "id": 303, "category_id": 3, "name": "Tacos Giant", "price": 13.90, "image": "https://picsum.photos/400?tacos3", "description": "Format XXL, triple viande." },
-    { "id": 304, "category_id": 3, "name": "Tacos Chicken BBQ", "price": 9.90, "image": "httpsum.photos/400?tacos4", "description": "Poulet mariné BBQ, frites, sauce cheddar." }
+    {
+      "id": 2,
+      "name": "Américain Fromage",
+      "description": "Pain, steak haché, cheddar, salade, tomate, frites, sauce fromagère",
+      "price": 7.00,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400",
+      "category": "americains"
+    },
+    {
+      "id": 3,
+      "name": "Américain Poulet",
+      "description": "Pain, poulet grillé, salade, tomate, oignons, frites, sauce curry",
+      "price": 6.80,
+      "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400",
+      "category": "americains"
+    },
+    {
+      "id": 4,
+      "name": "Américain Bacon",
+      "description": "Pain, steak haché, bacon grillé, salade, frites, sauce barbecue",
+      "price": 7.50,
+      "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400",
+      "category": "americains"
+    },
+    {
+      "id": 5,
+      "name": "Américain Complet",
+      "description": "Pain, steak haché, œuf, fromage, salade, tomate, frites, sauce maison",
+      "price": 8.00,
+      "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=400",
+      "category": "americains"
+    },
+    {
+      "id": 6,
+      "name": "Américain Végétarien",
+      "description": "Pain, galette végétale, salade, tomate, avocat, frites, sauce légère",
+      "price": 6.50,
+      "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=400",
+      "category": "americains"
+    }
   ],
-
-  "restaurant": {
-    "id": 1,
-    "name": "Kazdal",
-    "delivery_fee": 2.5,
-    "min_order": 10
-  }
+  "tacos": [
+    {
+      "id": 7,
+      "name": "Tacos Poulet",
+      "description": "Galette, poulet mariné, frites, fromage fondu, sauce algérienne",
+      "price": 7.00,
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400",
+      "category": "tacos"
+    },
+    {
+      "id": 8,
+      "name": "Tacos Viande Hachée",
+      "description": "Galette, viande hachée, frites, fromage fondu, sauce samouraï",
+      "price": 7.50,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400",
+      "category": "tacos"
+    },
+    {
+      "id": 9,
+      "name": "Tacos Merguez",
+      "description": "Galette, merguez, frites, fromage fondu, sauce harissa",
+      "price": 7.50,
+      "image": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400",
+      "category": "tacos"
+    },
+    {
+      "id": 10,
+      "name": "Tacos Mixte",
+      "description": "Galette, poulet + viande hachée, frites, fromage fondu, sauce au choix",
+      "price": 8.00,
+      "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=400",
+      "category": "tacos"
+    },
+    {
+      "id": 11,
+      "name": "Tacos Supreme",
+      "description": "Galette XL, 3 viandes au choix, frites, double fromage, sauces variées",
+      "price": 9.50,
+      "image": "https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=400",
+      "category": "tacos"
+    },
+    {
+      "id": 12,
+      "name": "Tacos Cordon Bleu",
+      "description": "Galette, cordon bleu, frites, fromage fondu, sauce blanche",
+      "price": 7.80,
+      "image": "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=400",
+      "category": "tacos"
+    }
+  ],
+  "burgers": [
+    {
+      "id": 13,
+      "name": "Burger Classic",
+      "description": "Pain brioche, steak haché 180g, salade, tomate, oignons, cornichons",
+      "price": 8.00,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+      "category": "burgers"
+    },
+    {
+      "id": 14,
+      "name": "Cheeseburger",
+      "description": "Pain brioche, steak haché 180g, cheddar, salade, tomate, sauce burger",
+      "price": 8.50,
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400",
+      "category": "burgers"
+    },
+    {
+      "id": 15,
+      "name": "Burger Bacon",
+      "description": "Pain brioche, steak haché 180g, bacon croustillant, cheddar, sauce BBQ",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400",
+      "category": "burgers"
+    },
+    {
+      "id": 16,
+      "name": "Chicken Burger",
+      "description": "Pain brioche, poulet pané, salade iceberg, tomate, sauce caesar",
+      "price": 8.50,
+      "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400",
+      "category": "burgers"
+    },
+    {
+      "id": 17,
+      "name": "Double Cheese",
+      "description": "Pain brioche, 2 steaks hachés, double cheddar, sauce maison",
+      "price": 10.00,
+      "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=400",
+      "category": "burgers"
+    },
+    {
+      "id": 18,
+      "name": "Burger Fish",
+      "description": "Pain brioche, poisson pané, salade, tomate, sauce tartare",
+      "price": 8.50,
+      "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=400",
+      "category": "burgers"
+    }
+  ]
 }
